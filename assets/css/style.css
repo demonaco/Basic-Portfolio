@@ -19,7 +19,6 @@ h1{
 
 header {
 height: 75px;
-
 }
 
 #topLine {
@@ -66,7 +65,8 @@ float: top;
 padding: 90px;
 margin: 0px 175px 0px 175px;
 border: 5px black solid;
-position: 
+position: relative;
+top: -100px;
 
 }
 
@@ -86,8 +86,8 @@ float: left;
 float: right;
 padding-right: 25px;
 margin-right: 160px;
-position: relative;
-top: 0;
+position: absolute;
+
 }
 
 #portfolio {
